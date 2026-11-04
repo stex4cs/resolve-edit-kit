@@ -1,0 +1,20 @@
+{
+  "project": "EventRecap",
+  "timeline": "Recap_v1",
+  "fps": 25, "width": 1080, "height": 1920,
+  "bin": "Recap",
+  "tracks": [
+    {"name": "V1", "kind": "video", "clips": [
+      {"file": "input/drone_01.MP4", "in": 4.0, "out": 7.0, "at": 0.0, "note": "opening wide shot"},
+      {"file": "input/crowd_03.MP4", "in": 2.0, "out": 3.5, "speed": 50, "retime": "optical_flow", "stabilize": true},
+      {"file": "input/stage_02.MP4", "in": 10.2, "out": 12.0, "props": {"ZoomX": 1.15, "ZoomY": 1.15}, "fade_out": 0.4}
+    ]},
+    {"name": "VO", "kind": "audio", "voice_isolation": 60, "clips": [
+      {"file": "input/interview.MP4", "in": 26.7, "out": 33.7, "at": 0.8, "volume": 4}
+    ]},
+    {"name": "Music", "kind": "audio", "clips": [
+      {"file": "input/track.wav", "in": 0, "out": 12, "at": 0, "volume": -6}
+    ]}
+  ],
+  "markers": [{"at": 6.0, "color": "Red", "name": "Drop"}]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "FirstCut",
+  "fps": 25,
+  "clips": [
+    {"file": "input/A001.mov", "in": 12.5, "out": 18.0},
+    {"file": "input/A002.mov", "in": "00:01:03.200", "out": "00:01:07.000"},
+    {"file": "input/A001.mov", "in": 41.0, "out": 44.2}
+  ]
+}
